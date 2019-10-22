@@ -1,0 +1,18 @@
+.text-click-off {
+  display: none;
+  cursor:pointer;
+  color:red;
+}
+
+.text-click {
+  cursor:pointer;
+  color:red;
+
+}
+.text-click:hover{
+  text-decoration: underline;
+}
+
+.text-click-off:hover{
+  text-decoration: underline;
+}
