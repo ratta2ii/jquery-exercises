@@ -13,6 +13,7 @@ $(document).ready(function () {
   });
 
 
+
   $('.fade-out-button').click(function () {
     $('#cricket').fadeOut(500);
   });
@@ -26,9 +27,7 @@ $(document).ready(function () {
   });
 
 
-  /*
 
-  */
   $('.slide-down-button').click(function () {
     $('#veggies').slideDown(500);
   });
@@ -41,6 +40,8 @@ $(document).ready(function () {
     $('#veggies').slideToggle(500);
   });
 
+
+
   $(".yellow-color").click(function(){
     $("body").addClass("body-yellow-class");
   });
@@ -52,7 +53,5 @@ $(document).ready(function () {
   $(".red-color").click(function(){
     $("body").addClass("body-red-class");
   });
-
-
 
 });
