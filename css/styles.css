@@ -16,3 +16,31 @@
 .text-click-off:hover{
   text-decoration: underline;
 }
+
+button {
+  margin: 30px;
+}
+
+.body-yellow-class{
+  background-color: yellow;
+}
+
+.body-green-class{
+  background-color: green;
+}
+
+.body-red-class{
+  background-color: red;
+}
+
+button.yellow-color {
+  background-color: yellow;
+}
+
+button.green-color {
+  background-color: green;
+}
+
+button.red-color {
+  background-color: red;
+}
