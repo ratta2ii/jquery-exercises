@@ -41,17 +41,28 @@ $(document).ready(function () {
   });
 
 
+  // $(".yellow-color").click(function(){
+  //   $("body").addClass("body-yellow-class");
+  // });
+  //
+  // $(".green-color").click(function(){
+  //   $("body").addClass("body-green-class");
+  // });
+  //
+  // $(".red-color").click(function(){
+  //   $("body").addClass("body-red-class");
+  // });
 
-  $(".yellow-color").click(function(){
-    $("body").addClass("body-yellow-class");
+// Below is an example of using loops for the commented code out above
+
+  var colors= ["yellow", "green", "red"];
+
+  colors.forEach(function(color) {
+    $("." + color + "-color").click(function() {
+      $("body").removeClass();
+      $("body").addClass("body-" + color +"-class");
+    });
+
   });
-
-  $(".green-color").click(function(){
-    $("body").addClass("body-green-class");
-  });
-
-  $(".red-color").click(function(){
-    $("body").addClass("body-red-class");
-  });
-
+  
 });
